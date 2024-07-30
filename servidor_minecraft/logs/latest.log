@@ -1,0 +1,906 @@
+[30Jul2024 01:27:53.031] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[30Jul2024 01:27:53.036] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[30Jul2024 01:27:58.832] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Jul2024 01:27:58.933] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerMC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Jul2024 01:27:59.416] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMC/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[30Jul2024 01:27:59.417] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMC/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[30Jul2024 01:27:59.418] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMC/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[30Jul2024 01:27:59.419] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMC/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[30Jul2024 01:27:59.733] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[30Jul2024 01:28:02.628] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Jul2024 01:28:02.789] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[30Jul2024 01:28:02.810] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[30Jul2024 01:28:02.919] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 137 options available, 0 override(s) found
+[30Jul2024 01:28:02.944] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:02.946] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:02.947] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:02.966] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:03.066] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:03.151] [main/INFO] [Puzzles Lib/]: Loading 92 mods:
+	- advancednetherite 2.1.3
+	- aquamirae 6.API15
+	- architectury 9.2.14
+	- artifacts 9.5.11
+		\-- expandability 9.0.4
+	- balm 7.3.6
+		\-- kuma_api 20.1.8
+	- betterarcheology 1.1.9-1.20.1
+	- bettercombat 1.8.5+1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettermineshafts 1.20-Forge-4.0.4
+	- bettermobs 1.0.0
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- betterthanmending 1.7.2
+	- bettertridents 8.0.1
+	- betterwitchhuts 1.20-Forge-3.0.3
+	- bookshelf 20.2.13
+	- bosses_of_mass_destruction 1.1.2
+	- cataclysm 1.99.5
+	- cerbons_api 1.1.0
+	- chunky 1.3.146
+	- citadel 2.5.6
+	- cloth_config 11.1.118
+	- comforts 6.4.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- cristellib 1.1.5
+	- curios 5.9.1+1.20.1
+	- deeperdarker 1.2.1
+	- dungeons_arise 2.1.57-1.20.1
+	- dungeons_arise_seven_seas 1.0.2
+	- dynamictrees 1.20.1-1.3.0-BETA12
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- embeddium 0.3.28+mc1.20.1
+		\-- rubidium 0.7.1
+	- enchdesc 17.0.16
+	- endrem 5.2.3-R-1.20.1
+	- explorerscompass 1.20.1-1.3.3-forge
+	- explorify 1.6.1
+	- farmersdelight 1.20.1-1.2.4
+	- ferritecore 6.0.1
+	- forge 47.2.0
+	- friendsandfoes 2.0.15
+		\-- mixinextras 0.3.6
+	- geckolib 4.4.7
+	- gobber2 2.8.3
+	- goblins_tyranny 1.1.0
+	- gravestone 1.20.1-1.0.17
+	- graveyard 3.1
+	- hangglider 8.0.1
+	- iceandfire 2.1.13-1.20.1-beta-4
+	- iceberg 1.1.13
+	- illagerinvasion 8.0.5
+	- immediatelyfast 1.2.18+1.20.4
+	- immersive_armors 1.6.1+1.20.1
+	- immersive_melodies 0.3.0+1.20.1
+	- incendium 5.3.5
+	- ironchests 5.0.2
+		\-- resourcefullib 2.0.6
+	- jade 11.9.4+forge
+	- jei 15.8.2.25
+	- lionfishapi 1.9
+	- lootr 0.7.34.85
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- morebows 1.0.13
+	- mr_dungeons_andtaverns 3.0.3.f
+	- obscure_api 15
+	- playeranimator 1.0.2-rc1+1.20
+	- prism 1.0.5
+	- puzzleslib 8.1.21
+		\-- puzzlesaccessapi 8.0.7
+	- securitycraft 1.9.10
+	- simplyswords 1.55.0-1.20.1
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- sophisticatedstorage 0.10.12.768
+	- t_and_t 0.0NONE
+	- tool_trims 2.2.0
+	- travelerstitles 1.20-Forge-4.0.2
+	- villagersplus 3.1
+	- watching 1.9.2
+	- waystones 14.1.4
+	- xaerominimap 24.2.0
+	- yet_another_config_lib_v3 3.5.0+1.20.1-forge
+	- yungsapi 1.20-Forge-4.0.5
+	- yungsbridges 1.20-Forge-4.0.3
+	- yungsextras 1.20-Forge-4.0.3
+[30Jul2024 01:28:03.209] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:03.211] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Jul2024 01:28:04.894] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[30Jul2024 01:28:04.895] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[30Jul2024 01:28:05.542] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[30Jul2024 01:28:05.542] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[30Jul2024 01:28:05.744] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[30Jul2024 01:28:12.733] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[30Jul2024 01:28:12.780] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for illagerinvasion:main
+[30Jul2024 01:28:12.823] [modloading-worker-0/INFO] [villagersplus/]: Registered JSON trade offer adapter.
+[30Jul2024 01:28:12.910] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[30Jul2024 01:28:12.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[30Jul2024 01:28:12.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[30Jul2024 01:28:12.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[30Jul2024 01:28:12.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[30Jul2024 01:28:12.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[30Jul2024 01:28:12.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[30Jul2024 01:28:13.087] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for hangglider:main
+[30Jul2024 01:28:13.265] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
+[30Jul2024 01:28:13.496] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30Jul2024 01:28:13.610] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[30Jul2024 01:28:13.717] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@5eb0a686 on thread Thread[#33,modloading-worker-0,5,main]
+[30Jul2024 01:28:13.717] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23241!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23241!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23241!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23241!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.2.0.jar%23273!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.2.0.jar%23272!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[30Jul2024 01:28:13.722] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[30Jul2024 01:28:13.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[30Jul2024 01:28:13.966] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[30Jul2024 01:28:13.966] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[30Jul2024 01:28:13.967] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[30Jul2024 01:28:13.979] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[30Jul2024 01:28:13.980] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[30Jul2024 01:28:13.981] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[30Jul2024 01:28:14.005] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[30Jul2024 01:28:14.048] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[30Jul2024 01:28:14.048] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[30Jul2024 01:28:14.556] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for bettertridents:main
+[30Jul2024 01:28:14.809] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/ServerMC/servidor_minecraft/config/yacl.json5'
+[30Jul2024 01:28:14.874] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[30Jul2024 01:28:14.931] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[30Jul2024 01:28:15.036] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[30Jul2024 01:28:15.813] [Worker-Main-1/WARN] [com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies/]: Family dynamictrees:warped for nether fungus species dynamictrees:warpedis not of type class com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies
+[30Jul2024 01:28:15.818] [Worker-Main-1/WARN] [com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies/]: Family dynamictrees:warped for nether fungus species dynamictrees:mega_warpedis not of type class com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies
+[30Jul2024 01:28:15.820] [Worker-Main-1/WARN] [com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies/]: Family dynamictrees:crimson for nether fungus species dynamictrees:mega_crimsonis not of type class com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies
+[30Jul2024 01:28:15.824] [Worker-Main-1/WARN] [com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies/]: Family dynamictrees:crimson for nether fungus species dynamictrees:crimsonis not of type class com.ferreusveritas.dynamictrees.tree.species.NetherFungusSpecies
+[30Jul2024 01:28:17.179] [main/INFO] [Puzzles Lib/]: Loading common config for bettertridents
+[30Jul2024 01:28:17.179] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for bettertridents
+[30Jul2024 01:28:17.180] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for bettertridents
+[30Jul2024 01:28:17.256] [modloading-worker-0/INFO] [gobber2/]: Gobber common setup complete
+[30Jul2024 01:28:17.327] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[30Jul2024 01:28:17.347] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[30Jul2024 01:28:17.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[30Jul2024 01:28:17.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/illagerinvasion.json
+[30Jul2024 01:28:17.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Found status: UP_TO_DATE Current: 8.0.5 Target: null
+[30Jul2024 01:28:17.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[30Jul2024 01:28:17.464] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30Jul2024 01:28:17.463] [modloading-worker-0/INFO] [gobber2/]: Gobber server setup complete
+[30Jul2024 01:28:17.466] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30Jul2024 01:28:17.468] [modloading-worker-0/INFO] [gobber2/]: Gobber IMC setup complete
+[30Jul2024 01:28:17.526] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[30Jul2024 01:28:17.534] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.p3pp3rf1y.sophisticatedstorage.compat.jade.StorageJadePlugin
+[30Jul2024 01:28:17.537] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[30Jul2024 01:28:17.540] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[30Jul2024 01:28:17.560] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[30Jul2024 01:28:17.565] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[30Jul2024 01:28:17.567] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[30Jul2024 01:28:17.568] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[30Jul2024 01:28:17.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[30Jul2024 01:28:17.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[30Jul2024 01:28:18.001] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[30Jul2024 01:28:18.001] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Starting version check at https://nerdthened.github.io/More-bows/update-modern.json
+[30Jul2024 01:28:18.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Found status: UP_TO_DATE Current: 1.0.13 Target: null
+[30Jul2024 01:28:18.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/hangglider.json
+[30Jul2024 01:28:18.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[30Jul2024 01:28:18.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[30Jul2024 01:28:18.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.3 Target: 2.1.3
+[30Jul2024 01:28:18.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[30Jul2024 01:28:18.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[30Jul2024 01:28:18.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[30Jul2024 01:28:18.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.0-BETA12 Target: null
+[30Jul2024 01:28:18.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[30Jul2024 01:28:18.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[30Jul2024 01:28:18.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[30Jul2024 01:28:18.311] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23272!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23272!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Jul2024 01:28:18.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[30Jul2024 01:28:18.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[30Jul2024 01:28:18.322] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Jul2024 01:28:18.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[30Jul2024 01:28:18.423] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[30Jul2024 01:28:18.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.0.16 Target: 17.0.16
+[30Jul2024 01:28:18.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[30Jul2024 01:28:18.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: OUTDATED Current: 1.1.13 Target: 1.1.21
+[30Jul2024 01:28:18.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[30Jul2024 01:28:19.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.17 Target: null
+[30Jul2024 01:28:19.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[30Jul2024 01:28:19.090] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[30Jul2024 01:28:19.091] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettertridents.json
+[30Jul2024 01:28:19.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[30Jul2024 01:28:19.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[30Jul2024 01:28:19.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.21 Target: null
+[30Jul2024 01:28:19.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[30Jul2024 01:28:19.122] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23272!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23272!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Jul2024 01:28:20.248] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Jul2024 01:28:21.722] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerMC/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23271!/assets/.mcassetsroot' uses unexpected schema
+[30Jul2024 01:28:21.723] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerMC/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23271!/data/.mcassetsroot' uses unexpected schema
+[30Jul2024 01:28:21.771] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[30Jul2024 01:28:21.777] [main/WARN] [Cristel Lib/]: T&T Waystone Patch Pack accepted!
+[30Jul2024 01:28:24.148] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [cataclysm:maledictus (from L_Enders_Cataclysm-1.99.5 -1.20.1.jar)] as it is missing following references: cataclysm:maledictus (from L_Enders_Cataclysm-1.99.5 -1.20.1.jar)
+[30Jul2024 01:28:24.182] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1.jar)] as it is missing following references: deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1.jar)
+[30Jul2024 01:28:25.455] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23276!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23276!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[30Jul2024 01:28:26.655] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction/]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[30Jul2024 01:28:27.733] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction/]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[30Jul2024 01:28:28.058] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/ServerMC/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
+[30Jul2024 01:28:28.075] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/ServerMC/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
+[30Jul2024 01:28:28.137] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30Jul2024 01:28:28.149] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[30Jul2024 01:28:28.151] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23271!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[30Jul2024 01:28:28.305] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3771 advancements
+[30Jul2024 01:28:28.308] [main/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:alchemist
+[30Jul2024 01:28:28.311] [main/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:horticulturist
+[30Jul2024 01:28:28.312] [main/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:occultist
+[30Jul2024 01:28:28.313] [main/INFO] [villagersplus/]: Deserializing default trades of profession: villagersplus:oceanographer
+[30Jul2024 01:28:28.337] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[30Jul2024 01:28:28.344] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[30Jul2024 01:28:28.456] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:air
+[30Jul2024 01:28:29.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Jul2024 01:28:29.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Jul2024 01:28:29.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Jul2024 01:28:29.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Jul2024 01:28:30.064] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Jul2024 01:28:30.126] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Jul2024 01:28:30.195] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Jul2024 01:28:30.196] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Jul2024 01:28:30.196] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Jul2024 01:28:30.196] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Jul2024 01:28:30.217] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[30Jul2024 01:28:30.219] [Server thread/INFO] [Puzzles Lib/]: Loading server config for illagerinvasion
+[30Jul2024 01:28:30.219] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[30Jul2024 01:28:30.221] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
+[30Jul2024 01:28:30.222] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
+[30Jul2024 01:28:30.228] [Server thread/INFO] [Puzzles Lib/]: Loading server config for hangglider
+[30Jul2024 01:28:30.237] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[30Jul2024 01:28:30.237] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[30Jul2024 01:28:30.238] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[30Jul2024 01:28:30.246] [Server thread/INFO] [Puzzles Lib/]: Loading server config for bettertridents
+[30Jul2024 01:28:30.248] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for bettertridents
+[30Jul2024 01:28:30.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Jul2024 01:28:39.399] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[30Jul2024 01:28:40.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Jul2024 01:28:40.944] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[30Jul2024 01:28:44.515] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.556] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.584] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.600] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.614] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.815] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.859] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.864] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:44.885] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:45.235] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:45.674] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2024 01:28:46.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[30Jul2024 01:28:46.656] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5985 ms
+[30Jul2024 01:28:46.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.445s)! For help, type "help"
+[30Jul2024 01:28:46.735] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Jul2024 01:28:46.762] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[30Jul2024 01:28:46.762] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[30Jul2024 01:28:47.027] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 202270 bytes (in 21 string chunks with the size of 10000)
+[30Jul2024 01:28:59.193] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6c75413c[id=<null>,name=Mattih7u7,properties={},legacy=false] (/127.235.81.96:51011) lost connection: Disconnected
+[30Jul2024 01:29:24.329] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@bf37ad[id=<null>,name=Mattih7u7,properties={},legacy=false] (/127.235.81.96:34709) lost connection: Disconnected
+[30Jul2024 01:29:53.138] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:47857] logged in with entity id 275 at (-8.5, 69.0, 1.5)
+[30Jul2024 01:29:53.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 01:29:53.526] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 01:29:53.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Ice and Fire]
+[30Jul2024 01:29:59.580] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[30Jul2024 01:30:09.343] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 01:30:09.347] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 01:30:46.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement ['X' Marks the Spot]
+[30Jul2024 01:31:03.305] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mattih7u7[/127.235.81.96:39793] logged in with entity id 710 at (-8.5, 69.0, 5.5)
+[30Jul2024 01:31:03.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 joined the game
+[30Jul2024 01:31:03.427] [Server thread/INFO] [Jade/]: Syncing config to Mattih7u7 (0cdc3da9-b365-3a87-a2c4-8d93a30d41ac)
+[30Jul2024 01:31:03.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Ice and Fire]
+[30Jul2024 01:31:38.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Vindicator
+[30Jul2024 01:31:47.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> xd
+[30Jul2024 01:31:54.026] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 01:31:58.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Vindicator
+[30Jul2024 01:32:13.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was shot by Pillager
+[30Jul2024 01:32:59.640] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 01:33:11.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Stone Age]
+[30Jul2024 01:34:00.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Getting an Upgrade]
+[30Jul2024 01:34:34.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Stone Age]
+[30Jul2024 01:35:16.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> me va genial
+[30Jul2024 01:35:24.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Monster Hunter]
+[30Jul2024 01:35:28.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> que cosa
+[30Jul2024 01:35:40.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> el server
+[30Jul2024 01:36:13.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Getting an Upgrade]
+[30Jul2024 01:36:15.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> verdad se me olvido instalar un mod para que no sea necesario que todos duerman
+[30Jul2024 01:36:19.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> para que se haga de dia
+[30Jul2024 01:36:25.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> pero son detalles
+[30Jul2024 01:37:05.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> ah si
+[30Jul2024 01:37:18.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> coloque un mod que hace que el loot que aparece en dungeons sea unico
+[30Jul2024 01:37:39.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> good
+[30Jul2024 01:37:41.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> osea si tu looteaste un cofre la otra persona igual podra
+[30Jul2024 01:37:52.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> pero son aleatorios los items
+[30Jul2024 01:38:05.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> dale
+[30Jul2024 01:38:09.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> si a ti te toco algo bueno a otro le toca algo distinto
+[30Jul2024 01:38:40.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement ['X' Marks the Spot]
+[30Jul2024 01:38:42.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Acquire Hardware]
+[30Jul2024 01:38:53.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Cobweb Entanglement]
+[30Jul2024 01:39:49.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Vindicator
+[30Jul2024 01:40:01.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> me mato de un solo golpe xd
+[30Jul2024 01:40:13.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> xdd
+[30Jul2024 01:40:28.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> ta potente el vindicador
+[30Jul2024 01:40:49.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mattih7u7 lost connection: Timed out
+[30Jul2024 01:40:49.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 left the game
+[30Jul2024 01:41:04.610] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mattih7u7[/127.235.81.96:59925] logged in with entity id 4014 at (23.115058928331386, 64.79673560066871, 14.685276790051553)
+[30Jul2024 01:41:04.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 joined the game
+[30Jul2024 01:41:04.672] [Server thread/INFO] [Jade/]: Syncing config to Mattih7u7 (0cdc3da9-b365-3a87-a2c4-8d93a30d41ac)
+[30Jul2024 01:41:36.150] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Disconnected
+[30Jul2024 01:41:36.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 01:41:43.610] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:33695] logged in with entity id 4329 at (1.699999988079071, 64.0, -103.30000001192093)
+[30Jul2024 01:41:43.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 01:41:43.664] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 01:43:40.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> esta muy cheto estas dungeon pa inicar xd
+[30Jul2024 01:43:46.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> los pillares estan muy rotos
+[30Jul2024 01:44:03.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> jdsjdjdjsjdad
+[30Jul2024 01:44:44.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> farmeando totems
+[30Jul2024 01:44:49.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Who You Gonna Call?]
+[30Jul2024 01:45:29.048] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Timed out
+[30Jul2024 01:45:29.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 01:45:41.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 01:46:37.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Zombie
+[30Jul2024 01:46:37.627] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2024 01:46:37.628] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 13 is dual wielding: false
+[30Jul2024 01:46:37.629] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 obituary
+[30Jul2024 01:46:37.629] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[30Jul2024 01:46:37.630] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[30Jul2024 01:46:51.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Zombie
+[30Jul2024 01:47:18.498] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54181a74[id=<null>,name=andresmansilla,properties={},legacy=false] (/127.149.157.65:53309) lost connection: Disconnected
+[30Jul2024 01:47:48.281] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:46291] logged in with entity id 6256 at (-11.427948062055007, 30.0, -86.30000001192093)
+[30Jul2024 01:47:48.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 01:47:48.330] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 01:51:32.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla drowned
+[30Jul2024 01:51:40.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> xd
+[30Jul2024 01:52:07.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Barrel Booty]
+[30Jul2024 01:55:25.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Skeleton
+[30Jul2024 01:57:56.505] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[30Jul2024 01:59:25.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Acquire Hardware]
+[30Jul2024 01:59:27.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Ghost
+[30Jul2024 01:59:31.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was blown up by Creeper
+[30Jul2024 02:00:09.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> zzz?
+[30Jul2024 02:00:23.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Safe Haven]
+[30Jul2024 02:00:48.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Goblin's Tyranny]
+[30Jul2024 02:01:00.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> zzz
+[30Jul2024 02:01:04.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Sweet Dreams]
+[30Jul2024 02:01:05.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Sweet Dreams]
+[30Jul2024 02:03:05.802] [Worker-Main-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 02:04:11.126] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-19, y=-53, z=1724}
+[30Jul2024 02:04:43.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Smashing Success]
+[30Jul2024 02:05:43.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Suit Up]
+[30Jul2024 02:05:51.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Amateur Archaeologist]
+[30Jul2024 02:06:03.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Disme A Dozen]
+[30Jul2024 02:11:00.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[30Jul2024 02:12:05.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> zzz?
+[30Jul2024 02:15:08.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 02:15:09.026] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2024 02:15:09.026] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 8 is dual wielding: false
+[30Jul2024 02:15:09.026] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 obituary
+[30Jul2024 02:15:09.027] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[30Jul2024 02:15:09.027] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[30Jul2024 02:15:22.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Husk
+[30Jul2024 02:15:45.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was blown up by Creeper
+[30Jul2024 02:16:08.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 02:16:47.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 02:17:25.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 02:17:25.100] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2024 02:17:25.100] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 15 is dual wielding: false
+[30Jul2024 02:17:25.100] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 obituary
+[30Jul2024 02:17:25.100] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[30Jul2024 02:17:25.100] [Netty Epoll Server IO #3/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[30Jul2024 02:17:43.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 02:18:17.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Ghost
+[30Jul2024 02:18:31.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> como me campean el spawn los fantasmas
+[30Jul2024 02:18:49.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Husk
+[30Jul2024 02:21:04.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Barrel Booty]
+[30Jul2024 02:22:28.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Disme A Dozen]
+[30Jul2024 02:22:46.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Suit Up]
+[30Jul2024 02:23:22.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Timed out
+[30Jul2024 02:23:22.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 02:23:38.094] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6be133ab[id=<null>,name=andresmansilla,properties={},legacy=false] (/127.149.157.65:46871) lost connection: Disconnected
+[30Jul2024 02:23:42.667] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:33837] logged in with entity id 21816 at (45.33474904977295, 66.0, 29.875886474800126)
+[30Jul2024 02:23:42.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 02:23:42.734] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 02:23:53.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> m saco xd
+[30Jul2024 02:24:01.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> gracias x el casco
+[30Jul2024 02:24:12.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> de nada
+[30Jul2024 02:24:16.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> ando puro muriendo
+[30Jul2024 02:24:34.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Close Quarters]
+[30Jul2024 02:24:39.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Stay dead]
+[30Jul2024 02:26:00.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Ghoul
+[30Jul2024 02:27:14.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Husk
+[30Jul2024 02:33:11.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Isn't It Iron Pick]
+[30Jul2024 02:35:54.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Monster Hunter]
+[30Jul2024 02:40:22.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Safe Haven]
+[30Jul2024 02:40:47.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Call For Adventure]
+[30Jul2024 02:43:13.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Take Aim]
+[30Jul2024 02:43:30.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Goblin's Tyranny]
+[30Jul2024 02:44:44.757] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Timed out
+[30Jul2024 02:44:44.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 02:45:20.445] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@57478885[id=<null>,name=andresmansilla,properties={},legacy=false] (/127.149.157.65:58067): Took too long to log in
+[30Jul2024 02:45:20.447] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@57478885[id=<null>,name=andresmansilla,properties={},legacy=false] (/127.149.157.65:58067) lost connection: Took too long to log in
+[30Jul2024 02:45:20.507] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[30Jul2024 02:45:50.021] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[30Jul2024 02:46:02.108] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-169, y=-51, z=-77}
+[30Jul2024 02:46:02.136] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-169, y=-51, z=-80}
+[30Jul2024 02:46:05.694] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/26878, l='ServerLevel[world]', x=204.32, y=68.00, z=327.37] died, message: 'Unemployed was slain by Ghoul'
+[30Jul2024 02:46:38.432] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 02:46:38.434] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 02:46:38.435] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 02:46:38.436] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 02:46:38.508] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 02:46:38.509] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 02:46:38.509] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 02:46:38.509] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 02:47:51.518] [Worker-Main-3/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 02:49:16.723] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1158, y=177, z=-952}
+[30Jul2024 02:50:33.028] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 02:50:33.030] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 02:50:33.030] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 02:50:33.030] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 02:50:33.660] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 02:50:33.661] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 02:50:33.661] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 02:50:33.661] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 02:50:36.366] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 02:50:36.367] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 02:50:36.367] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 02:50:36.367] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 02:50:36.484] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 02:50:36.484] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 02:50:36.484] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 02:50:36.484] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 02:50:36.507] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 02:50:36.507] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 02:50:36.507] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 02:50:36.508] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 02:50:36.612] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 02:50:36.612] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 02:50:36.613] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 02:50:36.613] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 02:50:36.636] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 02:50:36.636] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 02:50:36.636] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 02:50:36.636] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 02:50:36.654] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 02:50:36.654] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 02:50:36.655] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 02:50:36.655] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 02:50:36.677] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 02:50:36.677] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 02:50:36.678] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 02:50:36.679] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 02:50:36.763] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 02:50:36.764] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 02:50:36.764] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 02:50:36.764] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 02:50:36.793] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 02:50:36.793] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 02:50:36.793] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 02:50:36.793] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 02:50:36.803] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 02:50:36.804] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 02:50:36.804] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 02:50:36.804] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 02:51:04.357] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 02:51:04.358] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 02:51:04.358] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 02:51:04.358] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 02:51:04.877] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=47, y=-58, z=43}
+[30Jul2024 02:51:04.878] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=43, y=-58, z=45}
+[30Jul2024 02:51:04.878] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=41, y=-58, z=48}
+[30Jul2024 02:51:04.879] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=38, y=-58, z=49}
+[30Jul2024 02:51:05.020] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=49, y=-58, z=41}
+[30Jul2024 02:51:06.694] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mattih7u7 lost connection: Disconnected
+[30Jul2024 02:51:06.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 left the game
+[30Jul2024 02:58:07.947] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:60693] logged in with entity id 30620 at (-228.36061408827698, -5.97557591178632, 88.95666890755768)
+[30Jul2024 02:58:07.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 02:58:07.989] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 03:01:23.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Diamonds!]
+[30Jul2024 03:13:38.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> zzzz
+[30Jul2024 03:19:25.250] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Timed out
+[30Jul2024 03:19:25.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 03:20:27.530] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@68dc1b9f[id=<null>,name=andresmansilla,properties={},legacy=false] (/127.149.157.65:35295) lost connection: Disconnected
+[30Jul2024 03:20:56.594] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:44227] logged in with entity id 34471 at (29.189005122103193, 25.0, 86.74449001088904)
+[30Jul2024 03:20:56.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 03:20:56.651] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 03:21:56.793] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Timed out
+[30Jul2024 03:21:56.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 03:22:04.748] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: andresmansilla[/127.149.157.65:34881] logged in with entity id 34663 at (33.69999998807907, 28.0, 67.81551949188501)
+[30Jul2024 03:22:04.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla joined the game
+[30Jul2024 03:22:04.797] [Server thread/INFO] [Jade/]: Syncing config to andresmansilla (f4f461dc-a7a4-3e22-812f-9c81c5c85ad8)
+[30Jul2024 03:23:28.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Vindicator
+[30Jul2024 03:25:18.901] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mattih7u7[/127.235.81.96:33563] logged in with entity id 35584 at (337.93727435468816, 65.0, 577.984477554046)
+[30Jul2024 03:25:18.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 joined the game
+[30Jul2024 03:25:18.921] [Server thread/INFO] [Jade/]: Syncing config to Mattih7u7 (0cdc3da9-b365-3a87-a2c4-8d93a30d41ac)
+[30Jul2024 03:26:25.351] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=343, y=64, z=699} BlockPos{x=342, y=62, z=701}
+[30Jul2024 03:26:29.127] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=34, y=-58, z=50}
+[30Jul2024 03:26:29.708] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 03:26:29.709] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 03:26:29.709] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 03:26:29.710] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 03:26:41.158] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 03:26:41.159] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 03:26:41.159] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 03:26:41.160] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 03:26:57.636] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 03:26:57.637] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 03:26:57.637] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 03:26:57.637] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 03:26:57.905] [Worker-Main-63/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 03:27:16.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Cobweb Entanglement]
+[30Jul2024 03:27:55.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> Como ha ido el server?
+[30Jul2024 03:28:05.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> bn
+[30Jul2024 03:28:12.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> Jugable?
+[30Jul2024 03:28:13.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> me a sacado algunas veces si
+[30Jul2024 03:28:19.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> seeee
+[30Jul2024 03:28:34.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> Igual tiene como 90 mods
+[30Jul2024 03:28:39.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> asi que normal
+[30Jul2024 03:28:43.092] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 03:28:43.095] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 03:28:43.095] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 03:28:43.096] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 03:28:43.166] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 03:28:43.167] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 03:28:43.167] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 03:28:43.167] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 03:28:43.267] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 03:28:43.267] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 03:28:43.267] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 03:28:43.267] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 03:29:39.791] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[30Jul2024 03:30:22.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla went up in flames
+[30Jul2024 03:31:40.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Chest Slayer]
+[30Jul2024 03:31:46.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Amateur Archaeologist]
+[30Jul2024 03:32:53.578] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-169, y=-51, z=-80}
+[30Jul2024 03:33:13.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Isn't It Iron Pick]
+[30Jul2024 03:36:55.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Chest Slayer]
+[30Jul2024 03:38:34.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was shot by Skeleton
+[30Jul2024 03:41:20.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mattih7u7 lost connection: Timed out
+[30Jul2024 03:41:20.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 left the game
+[30Jul2024 03:41:58.444] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@67438835[id=<null>,name=Mattih7u7,properties={},legacy=false] (/127.235.81.96:39951) lost connection: Disconnected
+[30Jul2024 03:42:12.090] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mattih7u7[/127.235.81.96:35079] logged in with entity id 43301 at (710.1413374170259, 16.0, 804.786541998525)
+[30Jul2024 03:42:12.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 joined the game
+[30Jul2024 03:42:12.138] [Server thread/INFO] [Jade/]: Syncing config to Mattih7u7 (0cdc3da9-b365-3a87-a2c4-8d93a30d41ac)
+[30Jul2024 03:42:42.156] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mattih7u7 lost connection: Timed out
+[30Jul2024 03:42:42.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 left the game
+[30Jul2024 03:43:32.860] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mattih7u7[/127.235.81.96:50973] logged in with entity id 44145 at (712.0035609287515, 14.0, 790.3000000119209)
+[30Jul2024 03:43:32.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 joined the game
+[30Jul2024 03:43:32.888] [Server thread/INFO] [Jade/]: Syncing config to Mattih7u7 (0cdc3da9-b365-3a87-a2c4-8d93a30d41ac)
+[30Jul2024 03:44:44.554] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[30Jul2024 03:44:44.555] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[30Jul2024 03:44:44.555] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[30Jul2024 03:44:44.555] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[30Jul2024 03:44:45.396] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-169, y=-51, z=-77}
+[30Jul2024 03:45:24.668] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[30Jul2024 03:45:24.669] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[30Jul2024 03:45:24.669] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[30Jul2024 03:45:24.669] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[30Jul2024 03:45:25.448] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[30Jul2024 03:45:25.449] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[30Jul2024 03:45:25.449] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[30Jul2024 03:45:25.449] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[30Jul2024 03:46:48.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla has made the advancement [Ice Bucket Challenge]
+[30Jul2024 03:48:44.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Mimic
+[30Jul2024 03:48:44.296] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2024 03:48:44.296] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 7 is dual wielding: false
+[30Jul2024 03:48:44.296] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 obituary
+[30Jul2024 03:48:44.297] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[30Jul2024 03:48:44.297] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[30Jul2024 03:49:33.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mattih7u7 lost connection: Timed out
+[30Jul2024 03:49:33.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 left the game
+[30Jul2024 03:49:55.021] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mattih7u7[/127.235.81.96:50987] logged in with entity id 46990 at (686.3783740543396, 21.0, 796.5582464893089)
+[30Jul2024 03:49:55.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 joined the game
+[30Jul2024 03:49:55.060] [Server thread/INFO] [Jade/]: Syncing config to Mattih7u7 (0cdc3da9-b365-3a87-a2c4-8d93a30d41ac)
+[30Jul2024 03:53:49.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Sneak 100]
+[30Jul2024 03:59:49.614] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bichoo51[/127.91.17.81:49165] logged in with entity id 51474 at (3.5, 68.0, -8.5)
+[30Jul2024 03:59:49.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 joined the game
+[30Jul2024 03:59:49.659] [Server thread/INFO] [Jade/]: Syncing config to Bichoo51 (5f523fcf-687e-3681-a7ef-487e635ca993)
+[30Jul2024 03:59:49.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Ice and Fire]
+[30Jul2024 04:00:10.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> wenas
+[30Jul2024 04:00:10.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> wenas
+[30Jul2024 04:00:10.005] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10377ms or 207 ticks behind
+[30Jul2024 04:00:33.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> no puedo llamaa
+[30Jul2024 04:01:03.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <andresmansilla> weno
+[30Jul2024 04:01:11.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> que?
+[30Jul2024 04:01:18.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> ??????
+[30Jul2024 04:01:25.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> me pille a stive
+[30Jul2024 04:03:14.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Stone Age]
+[30Jul2024 04:03:28.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Getting an Upgrade]
+[30Jul2024 04:04:10.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bichoo51 lost connection: Timed out
+[30Jul2024 04:04:10.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 left the game
+[30Jul2024 04:05:09.317] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bichoo51[/127.91.17.81:33187] logged in with entity id 54183 at (39.69328643289986, 65.0, 23.34089793972902)
+[30Jul2024 04:05:09.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 joined the game
+[30Jul2024 04:05:09.361] [Server thread/INFO] [Jade/]: Syncing config to Bichoo51 (5f523fcf-687e-3681-a7ef-487e635ca993)
+[30Jul2024 04:06:53.616] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=385, y=68, z=-84} BlockPos{x=386, y=66, z=-84}
+[30Jul2024 04:07:35.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Monster Hunter]
+[30Jul2024 04:09:39.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla was slain by Zombie
+[30Jul2024 04:10:02.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Penteconter]
+[30Jul2024 04:10:33.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla drowned
+[30Jul2024 04:12:43.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was blown up by Creeper
+[30Jul2024 04:14:03.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was blown up by Creeper
+[30Jul2024 04:14:21.218] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=177, y=64, z=-2} BlockPos{x=178, y=62, z=-2}
+[30Jul2024 04:14:40.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Acquire Hardware]
+[30Jul2024 04:14:49.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Isn't It Iron Pick]
+[30Jul2024 04:15:53.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Stay dead]
+[30Jul2024 04:15:53.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has completed the challenge [It Spreads]
+[30Jul2024 04:18:09.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Into Darkness]
+[30Jul2024 04:18:50.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Taking from the Dead]
+[30Jul2024 04:19:35.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Diamonds!]
+[30Jul2024 04:19:39.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> opa
+[30Jul2024 04:19:44.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> 1 era xd
+[30Jul2024 04:20:43.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Stay dead]
+[30Jul2024 04:20:46.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 was shot by Skeleton
+[30Jul2024 04:20:52.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> P?¡¡¡
+[30Jul2024 04:20:59.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> herobrine me asusto
+[30Jul2024 04:21:06.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> y salio algo entero raro ajjhaja
+[30Jul2024 04:25:15.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Pseudo Archaeologist]
+[30Jul2024 04:26:46.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Source of Evil]
+[30Jul2024 04:26:49.385] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/65950, l='ServerLevel[world]', x=368.12, y=-256.00, z=-81.02] died, message: 'Unemployed was killed'
+[30Jul2024 04:27:27.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Barrel Booty]
+[30Jul2024 04:29:30.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Diamonds!]
+[30Jul2024 04:29:40.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> 3 diamantes en un cofre jaja
+[30Jul2024 04:29:40.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> xray??
+[30Jul2024 04:29:49.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement ['X' Marks the Spot]
+[30Jul2024 04:29:54.383] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/67582, l='ServerLevel[world]', x=368.09, y=-256.00, z=-80.36] died, message: 'Unemployed was killed'
+[30Jul2024 04:29:59.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> nao nao
+[30Jul2024 04:30:24.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 was slain by Wraith
+[30Jul2024 04:30:24.366] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2024 04:30:24.366] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 5 is dual wielding: false
+[30Jul2024 04:30:24.366] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 obituary
+[30Jul2024 04:30:24.367] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[30Jul2024 04:30:24.367] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[30Jul2024 04:31:06.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 burned to death
+[30Jul2024 04:33:06.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [The Cutest Predator]
+[30Jul2024 04:33:36.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Suit Up]
+[30Jul2024 04:34:18.710] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8132ms or 162 ticks behind
+[30Jul2024 04:35:40.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Safe Haven]
+[30Jul2024 04:35:45.117] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: andresmansilla lost connection: Disconnected
+[30Jul2024 04:35:45.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: andresmansilla left the game
+[30Jul2024 04:35:56.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Call For Adventure]
+[30Jul2024 04:35:57.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Disme A Dozen]
+[30Jul2024 04:36:41.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Cover Me with Diamonds]
+[30Jul2024 04:37:01.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Goblin's Tyranny]
+[30Jul2024 04:37:42.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Not Today, Thank You]
+[30Jul2024 04:38:56.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Fortune Seeker]
+[30Jul2024 04:38:56.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [The Beginning of An Adventure]
+[30Jul2024 04:40:51.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> eu tengo un old eye
+[30Jul2024 04:40:58.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> eso es para el portal?
+[30Jul2024 04:41:05.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> es para ir al end
+[30Jul2024 04:41:13.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> uuuh ya lo guardo
+[30Jul2024 04:41:14.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Mattih7u7> Necesitas otros 11 ojos xd
+[30Jul2024 04:41:20.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> kjasjaj
+[30Jul2024 04:41:29.684] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=202, y=47, z=211}
+[30Jul2024 04:44:24.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Who You Gonna Call?]
+[30Jul2024 04:44:49.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 was slain by Ghost
+[30Jul2024 04:47:18.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 was shot by Skeleton
+[30Jul2024 04:50:49.240] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1158, y=177, z=-952}
+[30Jul2024 04:51:22.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 was slain by Ghost
+[30Jul2024 04:51:44.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 was slain by Enderman
+[30Jul2024 04:51:54.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 fell from a high place
+[30Jul2024 04:52:04.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 fell from a high place
+[30Jul2024 04:54:34.128] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1158, y=177, z=-952}
+[30Jul2024 04:54:41.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 fell from a high place
+[30Jul2024 04:54:47.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> noooooooooooooooo
+[30Jul2024 04:54:52.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 fell from a high place
+[30Jul2024 04:55:05.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 fell from a high place
+[30Jul2024 05:01:51.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Source of Evil]
+[30Jul2024 05:03:05.280] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-22, y=-57, z=626}
+[30Jul2024 05:03:05.281] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-14, y=-57, z=626}
+[30Jul2024 05:03:10.821] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-22, y=-57, z=618}
+[30Jul2024 05:03:10.822] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-14, y=-57, z=618}
+[30Jul2024 05:04:23.752] [Worker-Main-62/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[30Jul2024 05:04:41.626] [Worker-Main-77/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=370, y=-32, z=1176}
+[30Jul2024 05:07:44.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Amateur Archaeologist]
+[30Jul2024 05:10:12.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Close Quarters]
+[30Jul2024 05:11:37.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 has made the advancement [Sweet Dreams]
+[30Jul2024 05:13:16.951] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/87247, l='ServerLevel[world]', x=176.70, y=87.02, z=949.70] died, message: 'Unemployed was slain by Zombie'
+[30Jul2024 05:13:50.654] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/87325, l='ServerLevel[world]', x=143.57, y=85.50, z=979.65] died, message: 'Unemployed was slain by Zombie'
+[30Jul2024 05:21:08.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> au adio mati
+[30Jul2024 05:21:12.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> me voy a acostar
+[30Jul2024 05:21:17.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bichoo51> good night
+[30Jul2024 05:21:20.565] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bichoo51 lost connection: Disconnected
+[30Jul2024 05:21:20.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bichoo51 left the game
+[30Jul2024 05:35:28.080] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-50, z=-80}
+[30Jul2024 05:35:28.182] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-50, z=-77}
+[30Jul2024 05:35:51.395] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=47, y=-58, z=43}
+[30Jul2024 05:35:51.396] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=43, y=-58, z=45}
+[30Jul2024 05:35:51.396] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=41, y=-58, z=48}
+[30Jul2024 05:35:51.396] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=38, y=-58, z=49}
+[30Jul2024 05:35:51.396] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=49, y=-58, z=41}
+[30Jul2024 05:35:51.486] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=34, y=-58, z=50}
+[30Jul2024 05:37:12.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [I was here, i lived, i..]
+[30Jul2024 05:39:29.464] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-222, y=-51, z=-80}
+[30Jul2024 05:39:42.227] [Worker-Main-77/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-222, y=-51, z=-77}
+[30Jul2024 05:41:21.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 has made the advancement [Ice Bucket Challenge]
+[30Jul2024 05:42:07.018] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:07.078] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:07.144] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:07.151] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:07.218] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:07.337] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:07.417] [Worker-Main-77/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2024 05:42:08.531] [Worker-Main-63/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[30Jul2024 05:42:08.531] [Worker-Main-63/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[30Jul2024 05:42:09.807] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5079ms or 101 ticks behind
+[30Jul2024 05:43:35.369] [Worker-Main-63/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[30Jul2024 05:56:21.993] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mattih7u7 lost connection: Disconnected
+[30Jul2024 05:56:21.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mattih7u7 left the game
+[30Jul2024 05:56:42.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[30Jul2024 05:56:42.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Jul2024 05:56:42.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Jul2024 05:56:42.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Jul2024 05:56:42.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[30Jul2024 05:56:46.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[30Jul2024 05:56:46.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[30Jul2024 05:56:46.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[30Jul2024 05:56:46.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[30Jul2024 05:56:46.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30Jul2024 05:56:46.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Jul2024 05:56:46.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[30Jul2024 05:56:46.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Jul2024 05:56:46.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[30Jul2024 05:56:46.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
